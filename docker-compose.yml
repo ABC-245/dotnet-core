@@ -1,0 +1,8 @@
+version: '3'
+
+services:
+  sampleapplication:
+    image: sampleapplication
+    build:
+      context: .
+      dockerfile: SampleApplication/Dockerfile
